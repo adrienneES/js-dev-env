@@ -5,4 +5,8 @@ body {
 
 table th {
   padding: 5px;
+  color: teal;
+}
+table th td {
+  border: 1px solid black;
 }
