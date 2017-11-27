@@ -8,7 +8,8 @@ export function getUsers() {
 }
 
 export function deleteUser(id) {
-  return del('users/${id}')
+  console.log(id); // eslint-disable-line no-console
+  return del('users/${id}') // eslint-disable-line no-unused-vars
 }
 
 function get(url) {
